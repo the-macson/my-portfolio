@@ -1,0 +1,46 @@
+.experience-section {
+    background-color: #efefef;
+}
+.experience-section-container {
+    padding: 70px 150px;
+    font-size: 19px;
+    text-align: start;
+}
+.internship-row {
+    padding: 60px 0px;
+}
+.service-item-row-heading {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #385a64;
+}
+.service-item-name {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+.service-item-row-content-duration {
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 12px;
+}
+.service-item-row-content-items-heading {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+.service-item-row-content-items-duration {
+    font-weight: 500;
+    color: #626262;
+    margin-bottom: 12px;
+}
+.service-item-row-content-items {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .experience-section-container {
+        padding: 70px 30px;
+    }
+}

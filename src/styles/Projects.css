@@ -1,0 +1,111 @@
+.projects-section {
+    background-color: #4F6B76;
+    padding: 70px 150px;
+}
+.project-section-heading {
+    font-size: 26px;
+    font-weight: 800;
+    /* text-align: center; */
+    margin-bottom: 80px;
+    /* margin-top: 40px; */
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+.project-section-content-box {
+    padding: 50px 0px;
+}
+
+.projects-section-main-content-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.my-projects {
+    display: flex;
+    padding: 15px;
+    background-color: #385a64;
+    border-radius: 9px;
+    /* flex-direction: column; */
+    margin: 25px 25px;
+    /* width: 270px; */
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+img.project-item-img {
+    width: 270px;
+}
+.projects-description {
+    /* width: 50%; */
+    color: #efefef;
+    text-align: start;
+    margin-left: 20px;
+    padding: 10px;
+}
+.project-name {
+    font-weight: 600;
+    font-size: 24px;
+    /* margin: 20px 0; */
+    margin-bottom: 15px;
+}
+.project-tagline {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.project-techstack-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-techstack-items {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #efefef;
+    color: #121b1e;
+    font-weight: 500;
+    /* margin: 10px; */
+}
+.project-techstack-items {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #efefef;
+    color: #121b1e;
+    font-weight: 500;
+    margin: 4px 2px;
+}
+.project-item-link {
+    display: flex;
+    margin: 20px 0px;
+}
+.project-links {
+    margin: 0px 10px;
+}
+.projects-img {
+    /* height: auto; */
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .projects-section-main-content-box {
+        align-items: center;
+    }
+    .my-projects {
+        width: 395px; 
+        flex-wrap: wrap;
+    }
+    img.project-item-img {
+        width: 370px;
+    }
+    .projects-description {
+        margin-left: 0px;
+        width: 370px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .my-projects {
+        width: 295px;
+    }
+    img.project-item-img {
+        width: 270px;
+    }
+}
