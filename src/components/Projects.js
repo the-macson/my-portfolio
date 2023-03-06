@@ -17,8 +17,8 @@ function Projects() {
             <div className="projects-description">
               <div className="project-name">FindHut</div>
               <div className="project-tagline">
-                FindHut is a website that helps to find best hostels, pg or
-                rental properties across your preferred location.
+                FindHut is a website that helps users to find best hostels, pg or
+                rental properties in their preferred location.
               </div>
               <div className="project-techstack-container">
                 <div className="project-techstack-items">HTML</div>
@@ -73,7 +73,7 @@ function Projects() {
             <div className="projects-description">
               <div className="project-name">Portfolio</div>
               <div className="project-tagline">
-                My portfolio contains all of my projects and achievements at one place.
+                This Portfolio project showcases my best work and accomplishments in the field of web Development.
               </div>
               <div className="project-techstack-container">
                 <div className="project-techstack-items">React JS</div>
