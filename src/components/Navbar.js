@@ -25,14 +25,14 @@ function Navbar() {
             </div>
             <div className='nav-items-container'>
                 <div className='nav-items'> 
-                    <a href='my-portfolio/#about'>
+                    <a href='/#about'>
                     {/* <Link to="/About"> */}
                         About
                     {/* </Link> */}
                     </a>
                 </div>
                 <div className='nav-items'> 
-                <a href='my-portfolio/#service'>
+                <a href='/#service'>
                     Services
                 </a>
                 </div>

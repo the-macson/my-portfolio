@@ -11,7 +11,7 @@ function App() {
         {/* <Navbar /> */}
         {/* <Home/> */}
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/my-portfolio' element={<Home />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
