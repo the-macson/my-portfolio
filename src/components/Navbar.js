@@ -12,6 +12,12 @@ function Navbar() {
     }, [location]);
 
     const [expandNavbar, setExpandNavbar] = useState(false);
+
+    const jumpToReleventDiv = (id) => {
+        const releventDiv = document.getElementById(id);
+        // behavior: "smooth" parameter for smooth movement
+        releventDiv.scrollIntoView({behavior: "smooth"});
+      }
     return (
         <div className='nav-bar' id={expandNavbar ? "open": "closed"} >
             <div className='toggle-btn'>
@@ -25,11 +31,13 @@ function Navbar() {
             </div>
             <div className='nav-items-container'>
                 <div className='nav-items'> 
-                    <a href='/#about'>
+                    <button onClick={() => {
+                        jumpToReleventDiv("about")
+                    }}>
                     {/* <Link to="/About"> */}
                         About
                     {/* </Link> */}
-                    </a>
+                    </button>
                 </div>
                 <div className='nav-items'> 
                 <a href='/#service'>
