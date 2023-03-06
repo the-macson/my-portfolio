@@ -1,5 +1,7 @@
 import React from 'react';
 import "../styles/Home.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import About from "../components/About"
 import Experience from "../components/Experience"
 import Projects from "../components/Projects"
@@ -9,6 +11,7 @@ import Services from "../components/Services"
 function Home() {
     return (
         <div className='home-page-all-content'>
+        <Navbar />
         <div className='home-section'>
            <div className='home-section-main-container'>
             <div className='home-section-content-box'>
@@ -32,6 +35,7 @@ function Home() {
         <Services/>
         <Projects/>
         <Experience/>
+        <Footer />
         </div>
     )
 }
