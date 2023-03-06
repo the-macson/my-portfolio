@@ -50,7 +50,7 @@ function Experience() {
                                 July 2022 - Sep 2022
                             </div>
                             <div className="service-item-row-content-items-main-content">
-                                Successfully merged 10 + Prs in Hacktoberfest by contributing in front-end based projects
+                                Successfully merged 10 + Prs in Social Summer of code by contributing in front-end based projects
                             </div>
                             <div className="service-item-project-links"></div>
                         </div>
@@ -62,7 +62,7 @@ function Experience() {
                                 March 2022 - May 2022
                             </div>
                             <div className="service-item-row-content-items-main-content">
-                                Successfully merged 10 + Prs in Hacktoberfest by contributing in front-end based projects
+                                Successfully merged 10 + Prs in GirlScript Summer of Code by contributing in front-end based projects.
                             </div>
                             <div className="service-item-project-links"></div>
                         </div>
