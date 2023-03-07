@@ -35,7 +35,7 @@ function Navbar() {
                         jumpToReleventDiv("about")
                     }}> */}
                     {/* <Link to="/About"> */}
-                    <a href="/#service">
+                    <a href="/#about">
                         About
                     </a>
                     {/* </Link> */}
