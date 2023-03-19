@@ -1,23 +1,23 @@
 import { Button } from '@mui/material';
 import React, {useEffect, useState} from 'react';
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css"
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
-    const location = useLocation();
+    // const location = useLocation();
 
     useEffect(() => {
         setExpandNavbar(false);
-    }, [location]);
+    }, []);
 
     const [expandNavbar, setExpandNavbar] = useState(false);
 
-    // const jumpToReleventDiv = (id) => {
-    //     const releventDiv = document.getElementById(id);
-    //     // behavior: "smooth" parameter for smooth movement
-    //     releventDiv.scrollIntoView({behavior: "smooth"});
-    //   }
+    const jumpToReleventDiv = (id) => {
+        const releventDiv = document.getElementById(id);
+        // behavior: "smooth" parameter for smooth movement
+        releventDiv.scrollIntoView({behavior: "smooth"});
+    }
     return (
         <div className='nav-bar' id={expandNavbar ? "open": "closed"} >
             <div className='toggle-btn'>
@@ -31,15 +31,15 @@ function Navbar() {
             </div>
             <div className='nav-items-container'>
                 <div className='nav-items'> 
-                    {/* <button onClick={() => {
+                    <button onClick={() => {
                         jumpToReleventDiv("about")
-                    }}> */}
+                    }}>
                     {/* <Link to="/About"> */}
-                    <a href="/#about">
+                    {/* <a href="/#about"> */}
                         About
-                    </a>
+                    {/* </a> */}
                     {/* </Link> */}
-                    {/* </button> */}
+                    </button>
                 </div>
                 <div className='nav-items'> 
                 <a href='/#service'>
